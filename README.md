@@ -1,10 +1,10 @@
 # Computer Vision Train Station demo
 
-This is an example of a computer vision application to detect the presence of a train on a platform and to count the number of people on the platform.
+This is an example of a computer vision application to **detect the presence of a train on a platform and to count the number of people on the platform**.
 This usecase can be useful for public transportation for passengers crowd counting.
-We are going to use YoloV5 to detect persons and train. Results will be saved into an Azure ML experiment. We can use different versions of YoloV5 with PyTorch.
+We are going to use **YoloV5 to detect persons and train**. Results will be saved into an **Azure ML experiment**. We can use different versions of **YoloV5 with PyTorch.**
 
-We can blur the frames from the video for people privacy concerns. There are many ways to do it. In this example we will blur all the frames without degrading the quality of the images for the CV model. We can as well decide to blur only the detected faces (and not the full image).
+**We can blur the frames** from the video for **people privacy concerns**. There are many ways to do it. In this example we will blur all the frames without degrading the quality of the images for the CV model. We can as well decide to blur only the detected faces (and not the full image).
 
 <img src="demo.png">
 
