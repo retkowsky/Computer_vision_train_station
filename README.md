@@ -6,9 +6,7 @@ We are going to use YoloV5 to detect persons and train. Results will be saved in
 
 We can blur the frames from the video for people privacy concerns. There are many ways to do it. In this example we will blur all the frames without degrading the quality of the images for the CV model. We can as well decide to blur only the detected faces (and not the full image).
 
-<video width="320" height="240" controls>
-  <source src="results/final.mp4" type="video/mp4">
-</video>
+<img src="demo.png">
 
 20-April-2022
 
